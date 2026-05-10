@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<VBox alignment="CENTER" fillWidth="false" spacing="20.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <Label text="Da studente di informatica, cosa puoi fare già oggi per non creare IA ingiuste?" textAlignment="JUSTIFY" wrapText="true">
+        <font>
+            <Font name="System Bold" size="35.0" />
+        </font>
+    </Label>
+    <TextFlow maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
+        <Text text="1. Testare con dati diversi">
+            <font>
+                <Font name="System Bold" size="22.0" />
+            </font></Text>
+        <Text text="&#10;">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="Non usare solo esempi “comodi” o simili a noi: un software va provato anche con casi diversi, limite o meno rappresentati.">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="&#10;&#10;">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="2. Rendere chiara la logica">
+            <font>
+                <Font name="System Bold" size="22.0" />
+            </font></Text>
+        <Text text="&#10;">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="Scrivere codice e documentazione comprensibili, così le decisioni del programma possono essere spiegate e controllate.">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="&#10;&#10;">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="3. Guardare i dati con spirito critico">
+            <font>
+                <Font name="System Bold" size="22.0" />
+            </font></Text>
+        <Text text="&#10;">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="Prima di usare un dataset, chiedersi da dove viene, cosa contiene e se può nascondere pregiudizi del passato.">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="&#10;&#10;">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="Un buon informatico non si chiede solo se il programma funziona, ma anche per chi funziona e chi può danneggiare.">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+    </TextFlow>
+</VBox>

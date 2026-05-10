@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<VBox alignment="CENTER" fillWidth="false" spacing="20.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <Label text="Se un'IA sbaglia, la colpa è del computer o di chi l'ha fatta?">
+        <font>
+            <Font name="System Bold" size="35.0" />
+        </font>
+    </Label>
+    <TextFlow maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
+        <Text text="La responsabilità resta sempre umana.">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Text>
+        <Text text="&#10;">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="Un’IA può sembrare autonoma, ma non ha coscienza né intenzioni: prende decisioni in base a come è stata progettata, addestrata e usata.">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="&#10;&#10;">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="Per questo la responsabilità si divide tra:">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Text>
+        <Text text="&#10;">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="- chi la sviluppa, che deve creare un sistema spiegabile e controllato;">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="&#10;">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="- chi la vende, che deve testarlo e dichiararne i limiti;">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="&#10;">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="- chi la usa, che non può fidarsi ciecamente né scaricare la colpa sul computer.">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="&#10;&#10;">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="Dire ">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Text>
+        <Text text="“l’ha deciso l’algoritmo”">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Text>
+        <Text text=" non basta: dietro ogni algoritmo ci sono sempre scelte umane.">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Text>
+    </TextFlow>
+</VBox>

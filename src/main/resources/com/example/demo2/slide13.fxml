@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" fillWidth="false" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <Label text="Il punto di riflessione: l’etica si allena prima del lavoro" wrapText="true">
+        <font>
+            <Font name="System Bold" size="35.0" />
+        </font>
+    </Label>
+    <TextFlow maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
+
+        <Text text="Nel lavoro di programmatore accade qualcosa di simile: accettare un algoritmo scorretto perché " >
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="“me lo ha chiesto il capo”" >
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text=" è la scelta più facile, non quella più giusta." >
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="&#10;&#10;" >
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Text>
+        <Text text="La vera domanda non è solo cosa faremmo davanti a un ordine sbagliato, ma quanto siamo abituati a riconoscere le conseguenze delle nostre azioni." >
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Text>
+        <Text text="&#10;&#10;" >
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="Se ci abituiamo a chiudere gli occhi come consumatori, sarà più difficile tenerli aperti come professionisti." >
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="&#10;" >
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="L’etica professionale non inizia quando firmiamo un contratto: inizia da come impariamo a scegliere ogni giorno." >
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+    </TextFlow>
+</VBox>

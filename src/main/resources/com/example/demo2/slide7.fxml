@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" fillWidth="false" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <Label text="Cosa cambieresti nel software per risolvere?">
+        <font>
+            <Font name="System Bold" size="35.0" />
+        </font>
+    </Label>
+    <TextFlow maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
+        <Text text="Renderemmo il sistema più cieco al genere, eliminando dai dati elementi diretti come sesso e genere, ma anche controllando gli indizi indiretti: nomi, hobby, parole ricorrenti, pause lavorative o percorsi che possono far intuire se una persona è uomo o donna." >
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="&#10;&#10;" >
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="L’obiettivo non è nascondere le persone, ma impedire all’algoritmo di usare informazioni irrilevanti per il lavoro." >
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="&#10;&#10;" >
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Text>
+        <Text text="Il software dovrebbe valutare soprattutto ciò che conta davvero: &#10;competenze, esperienze, titoli, risultati e coerenza con il ruolo richiesto." >
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Text>
+    </TextFlow>
+</VBox>

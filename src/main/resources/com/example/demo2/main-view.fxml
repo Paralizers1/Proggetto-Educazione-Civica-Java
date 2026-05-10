@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane style="-fx-background-image: url(&quot;sfondo.png&quot;), url(&quot;stemma.png&quot;); -fx-background-size: 100% 100%, auto; -fx-background-position: center,center; -fx-background-repeat: no-repeat;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.MainController">
+    <center>
+        <ScrollPane fx:id="scrollPage" fitToHeight="false" fitToWidth="true" style="-fx-background-color: rgba(255,255,255,0.8); -fx-background-radius: 30px; -fx-border-radius: 30px; -fx-border-color: transparent;" BorderPane.alignment="TOP_CENTER" StackPane.alignment="TOP_CENTER">
+
+            <content>
+                <StackPane fx:id="pageContainer" alignment="TOP_LEFT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" />
+            </content>
+
+        </ScrollPane>
+    </center>
+    <bottom>
+        <HBox fx:id="footer" alignment="CENTER" spacing="30.0">
+            <padding>
+                <Insets bottom="15.0" top="15.0" />
+            </padding>
+            <Button onAction="#onPrevious" onMouseEntered="#changeColor" onMouseExited="#changeColor2" style="-fx-background-color: #fff; -fx-border-radius: 6; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0); -fx-background-radius: 6; -fx-font-weight: bold; -fx-font-size: 13;" text="Indietro">
+                <HBox.margin>
+                    <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                </HBox.margin>
+                <padding>
+                    <Insets bottom="4.0" left="8.0" right="8.0" top="4.0" />
+                </padding>
+                <cursor>
+                    <Cursor fx:constant="HAND" />
+                </cursor></Button>
+            <Button onAction="#onNext" onMouseEntered="#changeColor" onMouseExited="#changeColor2" style="-fx-background-color: #fff; -fx-border-radius: 6; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0); -fx-background-radius: 6; -fx-font-weight: bold; -fx-font-size: 13;" text="Avanti">
+                <padding>
+                    <Insets bottom="4.0" left="8.0" right="8.0" top="4.0" />
+                </padding>
+                <cursor>
+                    <Cursor fx:constant="HAND" />
+                </cursor>
+            </Button>
+            <BorderPane.margin>
+                <Insets top="20.0" />
+            </BorderPane.margin>
+        </HBox>
+    </bottom>
+    <top>
+        <BorderPane fx:id="header" prefHeight="117.0" scaleShape="false" style="-fx-background-color: rgba(255,255,255,0.7);">
+            <top>
+                <FlowPane alignment="CENTER" columnHalignment="CENTER" maxWidth="1.7976931348623157E308" orientation="VERTICAL" prefHeight="80.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <Label text="Progetto Educazione Civica">
+                            <font>
+                                <Font name="Verdana Bold" size="27.0" />
+                            </font>
+                        </Label>
+                        <Label text="IA tra potere tecnico e responsabilità civica">
+                            <font>
+                                <Font name="Verdana Bold" size="16.0" />
+                            </font>
+                        </Label>
+                    </children>
+                    <BorderPane.margin>
+                        <Insets />
+                    </BorderPane.margin>
+                </FlowPane>
+            </top>
+            <right>
+                <Label alignment="TOP_RIGHT" contentDisplay="RIGHT" maxWidth="1.7976931348623157E308" prefHeight="17.0" text="Matteo Serrani, Simone Sorrentino, Andrea Bettucchi, Giovanna Langiu" BorderPane.alignment="CENTER">
+                    <font>
+                        <Font name="Verdana Italic" size="10.0" />
+                    </font>
+                    <BorderPane.margin>
+                        <Insets right="10.0" />
+                    </BorderPane.margin>
+                </Label>
+            </right>
+            <padding>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </padding>
+            <BorderPane.margin>
+                <Insets />
+            </BorderPane.margin>
+        </BorderPane>
+    </top>
+</BorderPane>

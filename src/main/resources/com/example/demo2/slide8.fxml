@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" fillWidth="false" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <Label text="Cosa cambieresti nelle regole?">
+        <font>
+            <Font name="System Bold" size="35.0" />
+        </font>
+    </Label>
+    <TextFlow maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
+        <Text text="La sfida è trovare un equilibrio tra efficienza e sicurezza: "> <font>
+            <Font name="System Bold" size="22.0" />
+        </font></Text>
+        <Text text=" &#10; - se controlliamo ogni singola scelta, l’IA diventa inutile; &#10; - se non controlliamo nulla, può diventare pericolosa." >
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Text>
+        <Text text="&#10;&#10;" >
+            <font>
+                <Font name="System" size="23.0" />
+            </font></Text>
+        <Text text="Per questo introdurremmo un monitoraggio statistico a soglia." >
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Text>
+        <Text text="&#10;&#10;" >
+            <font>
+                <Font name="System" size="23.0" />
+            </font></Text>
+        <Text text="L’azienda dovrebbe controllare i risultati aggregati: se il software scarta una percentuale anomala di candidate donne rispetto ai candidati uomini, scatta un alert." >
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="&#10;&#10;" >
+            <font>
+                <Font name="System" size="23.0" />
+            </font></Text>
+        <Text text="A quel punto il processo si ferma, un responsabile umano analizza il motivo, verifica se c’è un bias e corregge il sistema prima di continuare." >
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+    </TextFlow>
+</VBox>

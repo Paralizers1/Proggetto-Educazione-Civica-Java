@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" fillWidth="false" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <Label text="Dall’etica alla Costituzione: i diritti davanti all’algoritmo">
+        <font>
+            <Font name="System Bold" size="35.0" />
+        </font>
+    </Label>
+    <TextFlow maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
+        <Text text="Articolo 2"  >
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Text>
+        <Text text="&#10;" >
+            <font>
+                <Font name="System" size="23.0" />
+            </font></Text>
+        <Text text="La Repubblica riconosce e garantisce i diritti inviolabili dell’uomo, sia come singolo sia nelle formazioni sociali in cui si svolge la sua personalità." >
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="&#10;&#10;" >
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="Articolo 3" >
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Text>
+        <Text text="&#10;" >
+            <font>
+                <Font name="System" size="23.0" />
+            </font></Text>
+        <Text text="Tutti i cittadini hanno pari dignità sociale e sono eguali davanti alla legge, senza distinzione di sesso, razza, lingua, religione, opinioni politiche, condizioni personali e sociali." >
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="&#10;" >
+            <font>
+                <Font name="System" size="23.0" />
+            </font></Text>
+        <Text text="Il secondo comma aggiunge che la Repubblica deve rimuovere gli ostacoli economici e sociali che limitano libertà ed eguaglianza e impediscono il pieno sviluppo della persona." >
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+
+    </TextFlow>
+</VBox>

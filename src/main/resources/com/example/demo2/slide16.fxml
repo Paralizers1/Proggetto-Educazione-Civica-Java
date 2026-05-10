@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="TOP_CENTER" fillWidth="false" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <TextFlow textAlignment="CENTER">
+        <Text style="-fx-font-size: 35px; -fx-font-style: italic;" text="«Il pericolo non è che l’IA diventi umana:&#10;è che impari troppo bene le parti peggiori di noi»">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font></Text>
+        <Text style="-fx-font-size: 24px; -fx-font-style: italic;" text="&#10;&#10;— ChatGPT" />
+    </TextFlow>
+
+    <Label maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Grazie a tutti per esservi interessati!" textOverrun="CLIP" wrapText="true">
+        <style>-fx-font-size: 20px;</style>
+        <VBox.margin>
+            <Insets top="20.0" />
+        </VBox.margin>
+    </Label>
+</VBox>

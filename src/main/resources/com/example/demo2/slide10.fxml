@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" fillWidth="false" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <Label text="Secondo voi si viola l'Art. 3 della Costituzione? Perché?" wrapText="true">
+        <font>
+            <Font name="System Bold" size="35.0" />
+        </font>
+    </Label>
+    <TextFlow maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
+        <Text text="L’Articolo 3 vieta le discriminazioni basate sul sesso e tutela la pari dignità sociale." >
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="&#10;" >
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="Per questo, scartare candidate donne qualificate solo perché donne non è solo un problema tecnico: è un problema costituzionale." >
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="&#10;&#10;" >
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="Un'IA che replica i vecchi errori del passato non rimuove gli ostacoli, ma li automatizza, rendendo ancora più difficile per una donna dimostrare il proprio valore." >
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="&#10;&#10;" >
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="Il rischio è che il bias nel software trasformi un pregiudizio sociale in una " >
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="“verità matematica”"  >
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text=", rendendo la discriminazione più invisibile e più difficile da contestare." >
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="&#10;&#10;" >
+            <font>
+                <Font name="System Bold" size="23.0" />
+            </font></Text>
+        <Text text="L’IA non deve automatizzare gli ostacoli: deve aiutare a superarli." >
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Text>
+    </TextFlow>
+</VBox>

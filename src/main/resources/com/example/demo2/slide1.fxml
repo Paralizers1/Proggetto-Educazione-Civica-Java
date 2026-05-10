@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<VBox alignment="CENTER" fillWidth="false" spacing="20.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <Label text="Un algoritmo può essere razzista o sessista?">
+        <font>
+            <Font name="System Bold" size="35.0" />
+        </font>
+    </Label>
+    <TextFlow maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
+        <Text text="Sì, anche senza ">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font></Text>
+        <Text text="“volerlo”">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font></Text>
+        <Text text="." >
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="&#10;" >
+            <font>
+                <Font name="System" size="24.0" />
+            </font></Text>
+        <Text text="Un’IA impara dai dati: se quei dati contengono pregiudizi del passato, il sistema può ripeterli e trasformarli in decisioni automatiche." >
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="&#10;" >
+            <font>
+                <Font name="System" size="24.0" />
+            </font></Text>
+        <Text text="Questo fenomeno si chiama bias algoritmico." >
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="&#10;" >
+            <font>
+                <Font name="System" size="24.0" />
+            </font></Text>
+        <Text text="Il bias nell’IA non dipende solo da un errore tecnico: spesso nasce da pregiudizi umani, sociali e istituzionali già presenti nella realtà." >
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="&#10;" >
+            <font>
+                <Font name="System" size="24.0" />
+            </font></Text>
+        <Text text="Quindi l’IA non inventa sempre il pregiudizio: spesso lo eredita." >
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="&#10;&#10;"  >
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="Il problema non è che l’IA "  >
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Text>
+        <Text text="“vuole”" >
+            <font>
+                <Font name="System Bold Italic" size="20.0" />
+            </font></Text>
+        <Text text=" discriminare qualcuno." >
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Text>
+        <Text text="&#10;" >
+            <font>
+                <Font name="System" size="24.0" />
+            </font></Text>
+        <Text text="Il problema è che può imparare da una società che ha già discriminato qualcuno." >
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Text>
+    </TextFlow>
+</VBox>

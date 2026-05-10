@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<VBox alignment="CENTER" fillWidth="false" spacing="20.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <Label text="Prima di giudicare l’IA: che cos’è l’etica?">
+        <font>
+            <Font name="System Bold" size="35.0" />
+        </font>
+    </Label>
+    <TextFlow maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
+        <Text text="L’etica è la riflessione su ciò che è giusto e ciò che è sbagliato." textAlignment="JUSTIFY">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Text>
+        <Text text="&#10;">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="Non si limita a indicare regole da seguire, ma ci chiede perché quelle regole sono giuste e quali conseguenze hanno le nostre azioni sugli altri." textAlignment="JUSTIFY">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="&#10;&#10;">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="La morale dice: " textAlignment="JUSTIFY">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="“Questa è la regola.”" textAlignment="JUSTIFY">
+            <font>
+                <Font name="System Italic" size="20.0" />
+            </font></Text>
+        <Text text="&#10;&#10;">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="L’etica chiede: " textAlignment="JUSTIFY">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="“Perché è giusta? Chi protegge? Chi può danneggiare?”" textAlignment="JUSTIFY">
+            <font>
+                <Font name="System Bold Italic" size="20.0" />
+            </font></Text>
+        <Text text="&#10;&#10;">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Text>
+        <Text text="Nell’Educazione Civica, l’etica aiuta a orientare le scelte umane quando la legge non basta o non è ancora arrivata." textAlignment="JUSTIFY">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Text>
+        <Text text="&#10;">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="Nel caso dell’IA, non riguarda i " textAlignment="JUSTIFY">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="“sentimenti”" textAlignment="JUSTIFY">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text=" del computer, ma le decisioni di chi la progetta, la vende e la usa.">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+    </TextFlow>
+</VBox>

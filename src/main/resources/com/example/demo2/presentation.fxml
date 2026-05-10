@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<VBox alignment="CENTER" fillWidth="false" spacing="20.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <Label text="Un algoritmo al posto del selezionatore?">
+        <font>
+            <Font name="System Bold" size="35.0" />
+        </font>
+    </Label>
+
+    <Label text="Quando l’IA usa il passato per decidere il futuro">
+        <font>
+            <Font name="System Bold" size="25.0" />
+        </font>
+    </Label>
+
+    <TextFlow maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
+        <Text text="In un’azienda tecnologica, un’intelligenza artificiale viene usata per scremare i curriculum e scegliere chi far arrivare al colloquio.">
+            <font>
+                <Font size="23.0" />
+            </font>
+        </Text>
+        <Text text="&#10;&#10;">
+            <font>
+                <Font size="23.0" />
+            </font>
+        </Text>
+        <Text text="Il sistema è stato addestrato sui dati degli ultimi anni, quando erano stati assunti quasi solo uomini.">
+            <font>
+                <Font size="23.0" />
+            </font>
+        </Text>
+        <Text text="&#10;&#10;">
+            <font>
+                <Font size="23.0" />
+            </font>
+        </Text>
+        <Text text="Per questo l’IA rischia di scartare candidate donne anche quando hanno competenze e titoli adeguati.">
+            <font>
+                <Font size="23.0" />
+            </font>
+        </Text>
+    </TextFlow>
+</VBox>

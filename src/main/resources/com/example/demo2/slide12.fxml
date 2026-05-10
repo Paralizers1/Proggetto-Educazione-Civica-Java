@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<VBox alignment="CENTER" fillWidth="false" spacing="20.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <Label text="Se un capo ti chiedesse di fare un programma che sa essere scorretto, tu cosa faresti?" textAlignment="JUSTIFY" wrapText="true">
+        <font>
+            <Font name="System Bold" size="35.0" />
+        </font>
+    </Label>
+    <TextFlow maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
+        <Text text="Se un capo mi chiedesse di creare un programma scorretto, la risposta più semplice sarebbe: ">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="“rifiuterei”">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text=".">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="&#10;&#10;">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="Ma nella realtà essere coerenti è più difficile: ogni giorno, come cittadini e consumatori, scegliamo spesso la strada più comoda, economica o veloce, anche quando sappiamo che può avere conseguenze poco etiche.">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="&#10;&#10;">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+        <Text text="Succede quando compriamo da grandi piattaforme invece di sostenere il piccolo negozio locale, quando scegliamo prodotti economici senza chiederci come siano stati prodotti, o quando usiamo tecnologie costruite dentro filiere difficili da controllare.">
+            <font>
+                <Font name="System" size="20.0" />
+            </font></Text>
+
+    </TextFlow>
+</VBox>

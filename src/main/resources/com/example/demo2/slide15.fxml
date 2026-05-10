@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<VBox alignment="CENTER" fillWidth="false" spacing="20.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <Label text="Domande finali: chi decide il futuro?">
+        <font>
+            <Font name="System Bold" size="35.0" />
+        </font>
+    </Label>
+    <TextFlow maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
+        <Text text="  Se un algoritmo impara dal passato, come può aiutarci a costruire un futuro più giusto?">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Text><Text text="&#10;&#10; ">
+            <font>
+                <Font size="29.0" />
+            </font></Text>
+        <Text text="Quando una decisione viene presa da una macchina, chi ha il coraggio di assumersene la responsabilità?">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Text>
+        <Text text="&#10;&#10;">
+            <font>
+                <Font name="System Bold" size="29.0" />
+            </font></Text>
+        <Text text="  Vogliamo usare l’IA solo per essere più efficienti, o anche per diventare più giusti?">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Text>
+        <Text text="&#10;&#10; ">
+            <font>
+                <Font size="29.0" />
+            </font></Text>
+        <Text text="Se una discriminazione diventa automatica e invisibile, siamo ancora capaci di riconoscerla?">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Text>
+
+    </TextFlow>
+</VBox>
